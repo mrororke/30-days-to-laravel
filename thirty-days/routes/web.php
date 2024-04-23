@@ -8,6 +8,7 @@ use App\Http\Controllers\RegisteredUserController;
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
+
 // JobController
 //Route::resource('jobs', JobController::class);
 Route::get('/jobs', [JobController::class, 'index']);
